@@ -203,7 +203,7 @@ The code uses the _createServer_ method of the [http](https://nodejs.org/docs/la
 The request is responded to with the status code 200, with the <i>Content-Type</i> header set to <i>text/plain</i>, and the content of the site to be returned set to <i>Hello World</i>.
 
 
-The last rows bind the http server assigned to the _app_ variable, to listen to HTTP requests sent to the port 3001:
+The last lines bind the http server assigned to the _app_ variable, to listen to HTTP requests sent to the port 3001:
 
 ```js
 const PORT = 3001
