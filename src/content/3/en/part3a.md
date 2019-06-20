@@ -250,7 +250,7 @@ app.listen(port)
 console.log(`Server running on port ${port}`)
 ```
 
-Let's restart the server (you can shut the server down by pressing _Ctrl+C_ in the console) and let's refresh the browser.
+Let's restart the server (you can shut the server down by pressing _Ctrl+C_ in the console) and refresh the browser.
 
 The <i>application/json</i> value in the <i>Content-Type</i> header informs the receiver that the data is in the JSON format. The _notes_ array gets transformed into JSON with the <em>JSON.stringify(notes)</em> method.
 
